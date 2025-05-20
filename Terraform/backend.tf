@@ -2,7 +2,7 @@ terraform {
   backend "s3" {
     bucket       = "bilarn-devops-eks-aws-bucket-05"
     region       = "us-east-1"
-    key          = "aws-eks-mtire-devsec-project/terraform.tfstate"
+    key          = "devopsbankapp-project/terraform.tfstate"
     use_lockfile = true
     encrypt      = true
   }
